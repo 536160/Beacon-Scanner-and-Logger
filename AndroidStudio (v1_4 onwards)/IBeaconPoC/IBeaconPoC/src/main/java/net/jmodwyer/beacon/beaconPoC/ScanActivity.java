@@ -227,6 +227,8 @@ public class ScanActivity extends Activity implements BeaconConsumer,
 		// Get current background scan interval (if specified)
 		if (prefs.get(PREFERENCE_SCANINTERVAL) != null) {
 			beaconManager.setBackgroundBetweenScanPeriod(Long.parseLong(scanInterval));
+            // Debug - is background scanning working?
+            System.out.println("Background scan interval set to: " + scanInterval.toString());
 		}
 		
 		logToDisplay("Scanning...");
@@ -242,6 +244,8 @@ public class ScanActivity extends Activity implements BeaconConsumer,
                     Iterator <Beacon> beaconIterator = beacons.iterator();
                     while (beaconIterator.hasNext()) {
                         Beacon beacon = beaconIterator.next();
+                        // Debug - logging a beacon - checking background logging is working.
+                        System.out.println("Logging another beacon.");
                         logBeaconData(beacon);
                     }
                 }
