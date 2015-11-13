@@ -2,17 +2,17 @@
 <items version="2" >
 
     <item
-        jar="/Users/justin/Repository/Beacon-Scanner-and-Logger/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.5.1/classes.jar"
+        jar="/Users/justin/Repository/Beacon-Scanner-and-Logger/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/IBeaconPoC/googleplayservices_lib/unspecified/libs/google-play-services.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="3e75f1ad43fbaff21262ec4f3798bcbc34d672fe">
-        <dex dex="/Users/justin/Repository/Beacon-Scanner-and-Logger/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/classes-b0cb9c240019556a3717959eb94d6a655bd2f771.jar" />
+        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
+        <dex dex="/Users/justin/Repository/Beacon-Scanner-and-Logger/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/google-play-services-1ec3563b5696b88f324643b4e2937223f3ec2c43.jar" />
     </item>
     <item
         jar="/Users/justin/Repository/Beacon-Scanner-and-Logger/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/IBeaconPoC/googleplayservices_lib/unspecified/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="aad720896bff194bf9470a4cb6edb722a1fd750c">
+        sha1="82da3e341feb3688c6724793186aec24d00090d6">
         <dex dex="/Users/justin/Repository/Beacon-Scanner-and-Logger/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/classes-bc5a1899e168b2457d46ae52888f7441477acf11.jar" />
     </item>
     <item
@@ -23,11 +23,11 @@
         <dex dex="/Users/justin/Repository/Beacon-Scanner-and-Logger/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/android-support-v4-2325c3ddecb2ba57705727b3bef5fbea4ea32c8d.jar" />
     </item>
     <item
-        jar="/Users/justin/Repository/Beacon-Scanner-and-Logger/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/IBeaconPoC/googleplayservices_lib/unspecified/libs/google-play-services.jar"
+        jar="/Users/justin/Repository/Beacon-Scanner-and-Logger/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/exploded-aar/org.altbeacon/android-beacon-library/2.7/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="d71573c9c5ea98a8db47ad6ff993a63d492b3bfa">
-        <dex dex="/Users/justin/Repository/Beacon-Scanner-and-Logger/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/google-play-services-1ec3563b5696b88f324643b4e2937223f3ec2c43.jar" />
+        sha1="fe158fe00409d807f9132f3b8a81c34e99ec87cd">
+        <dex dex="/Users/justin/Repository/Beacon-Scanner-and-Logger/AndroidStudio (v1_4 onwards)/IBeaconPoC/IBeaconPoC/build/intermediates/pre-dexed/debug/classes-97335ba593589bb012c2cd1fb21697078ebd177a.jar" />
     </item>
 
 </items>

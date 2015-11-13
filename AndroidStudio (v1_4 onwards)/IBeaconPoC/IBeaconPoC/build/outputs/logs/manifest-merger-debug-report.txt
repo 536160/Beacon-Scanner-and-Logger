@@ -17,7 +17,7 @@ ADDED from AndroidManifest.xml:1:1
 		ADDED from AndroidManifest.xml:5:5
 uses-sdk
 ADDED from AndroidManifest.xml:7:5
-MERGED from org.altbeacon:android-beacon-library:2.5.1:7:5
+MERGED from org.altbeacon:android-beacon-library:2.7:7:5
 MERGED from IBeaconPoC:googleplayservices_lib:unspecified:23:5
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:9:9
@@ -29,12 +29,12 @@ MERGED from IBeaconPoC:googleplayservices_lib:unspecified:23:5
 		INJECTED from AndroidManifest.xml:0:0
 uses-permission#android.permission.BLUETOOTH
 ADDED from AndroidManifest.xml:10:5
-MERGED from org.altbeacon:android-beacon-library:2.5.1:11:5
+MERGED from org.altbeacon:android-beacon-library:2.7:11:5
 	android:name
 		ADDED from AndroidManifest.xml:10:22
 uses-permission#android.permission.BLUETOOTH_ADMIN
 ADDED from AndroidManifest.xml:11:5
-MERGED from org.altbeacon:android-beacon-library:2.5.1:12:5
+MERGED from org.altbeacon:android-beacon-library:2.7:12:5
 	android:name
 		ADDED from AndroidManifest.xml:11:22
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
@@ -47,7 +47,7 @@ ADDED from AndroidManifest.xml:13:2
 		ADDED from AndroidManifest.xml:13:19
 application
 ADDED from AndroidManifest.xml:17:5
-MERGED from org.altbeacon:android-beacon-library:2.5.1:15:5
+MERGED from org.altbeacon:android-beacon-library:2.7:17:5
 MERGED from IBeaconPoC:googleplayservices_lib:unspecified:27:5
 	android:label
 		ADDED from AndroidManifest.xml:21:9
@@ -112,44 +112,48 @@ ADDED from AndroidManifest.xml:50:10
 	android:value
 		ADDED from AndroidManifest.xml:52:14
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from org.altbeacon:android-beacon-library:2.5.1:13:5
+ADDED from org.altbeacon:android-beacon-library:2.7:13:5
 	android:name
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:13:22
+		ADDED from org.altbeacon:android-beacon-library:2.7:13:22
+uses-permission-sdk-23
+ADDED from org.altbeacon:android-beacon-library:2.7:15:5
+	android:name
+		ADDED from org.altbeacon:android-beacon-library:2.7:15:29
 receiver#org.altbeacon.beacon.startup.StartupBroadcastReceiver
-ADDED from org.altbeacon:android-beacon-library:2.5.1:16:9
+ADDED from org.altbeacon:android-beacon-library:2.7:18:9
 	android:name
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:16:19
+		ADDED from org.altbeacon:android-beacon-library:2.7:18:19
 intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED
-ADDED from org.altbeacon:android-beacon-library:2.5.1:17:13
+ADDED from org.altbeacon:android-beacon-library:2.7:19:13
 action#android.intent.action.BOOT_COMPLETED
-ADDED from org.altbeacon:android-beacon-library:2.5.1:18:17
+ADDED from org.altbeacon:android-beacon-library:2.7:20:17
 	android:name
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:18:25
+		ADDED from org.altbeacon:android-beacon-library:2.7:20:25
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from org.altbeacon:android-beacon-library:2.5.1:19:17
+ADDED from org.altbeacon:android-beacon-library:2.7:21:17
 	android:name
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:19:25
+		ADDED from org.altbeacon:android-beacon-library:2.7:21:25
 action#android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from org.altbeacon:android-beacon-library:2.5.1:20:17
+ADDED from org.altbeacon:android-beacon-library:2.7:22:17
 	android:name
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:20:25
+		ADDED from org.altbeacon:android-beacon-library:2.7:22:25
 service#org.altbeacon.beacon.service.BeaconService
-ADDED from org.altbeacon:android-beacon-library:2.5.1:24:9
+ADDED from org.altbeacon:android-beacon-library:2.7:26:9
 	android:label
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:29:13
+		ADDED from org.altbeacon:android-beacon-library:2.7:31:13
 	android:isolatedProcess
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:28:13
+		ADDED from org.altbeacon:android-beacon-library:2.7:30:13
 	android:exported
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:27:13
+		ADDED from org.altbeacon:android-beacon-library:2.7:29:13
 	android:enabled
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:26:13
+		ADDED from org.altbeacon:android-beacon-library:2.7:28:13
 	android:name
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:25:13
+		ADDED from org.altbeacon:android-beacon-library:2.7:27:13
 service#org.altbeacon.beacon.BeaconIntentProcessor
-ADDED from org.altbeacon:android-beacon-library:2.5.1:30:9
+ADDED from org.altbeacon:android-beacon-library:2.7:32:9
 	android:exported
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:33:13
+		ADDED from org.altbeacon:android-beacon-library:2.7:35:13
 	android:enabled
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:32:13
+		ADDED from org.altbeacon:android-beacon-library:2.7:34:13
 	android:name
-		ADDED from org.altbeacon:android-beacon-library:2.5.1:31:13
+		ADDED from org.altbeacon:android-beacon-library:2.7:33:13
